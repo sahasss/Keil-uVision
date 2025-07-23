@@ -1,0 +1,7 @@
+ORG 0h
+MOV A,#45H
+MOV B,#5H
+DIV AB
+MOV R3,A
+END
+		

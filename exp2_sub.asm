@@ -1,0 +1,6 @@
+ORG 0000h
+MOV R0,#1fh
+MOV A,#3bh
+SUBB A,R0
+MOV R3,A
+END
